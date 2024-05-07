@@ -11,20 +11,13 @@
             background-image: url('https://lh5.googleusercontent.com/pg0htR2XUH_RbYXwC74cd0Dv3rCj3JTGvoGqXYLyc7qsrNNwZ6REkYRIpsTHCDrrJ1HRR_uEQKCdFEnY1qWiJHmwFhPQ3D7hyW2IbNaYm_R21gtqzuIBjLMgplRJxfe7tw=w1280');
             background-size: cover;
             font-family: Arial, sans-serif;
+            padding-bottom: 50px; /* Ajuste para o rodapé fixo */
         }
         .cabecalho {
             background-color: #4724c5;
             color: rgb(248, 8, 8);
             text-align: center;
             padding: 10px 0;
-        }
-
-        .rodape {
-            background-color: #4724c5;
-            color: rgb(248, 8, 8);
-            text-align: center;
-            padding: 10px 0;
-
         }
         .conteudo {
             padding: 20px;
@@ -35,10 +28,19 @@
             color: #74690f;
             text-decoration: none;
         }
+        .rodape {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #4724c5;
+            color: rgb(248, 8, 8);
+            text-align: center;
+            padding: 10px 0;
+        }
     </style>
 </head>
 <body>
-    <div class="Portifólio do Misa">
+    <div class="cabecalho">
         <h1>Links para Misa</h1>
     </div>
     <div class="conteudo">
@@ -47,7 +49,7 @@
         <a href="https://www.exemplo3.com" class="link-externo" target="_blank">Link para Externo 3</a>
         <!-- Adicione mais links conforme necessário -->
     </div>
-    <div class="Feito po MisaMisa">
+    <div class="rodape">
         <p>Todos os direito reservados.</p>
     </div>
 </body>
