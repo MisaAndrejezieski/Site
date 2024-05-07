@@ -42,13 +42,13 @@ header a{
 
 header a:hover{
     color: #fff;
-    transform: scale(1.4) ;
-    transition: .5s;
+    transform: scale(1.1) ;
+    transition: .2s;
 }
 
 header .interface .logo:hover{
-    transform: scale(0.1);
-    transition: 5.0s;
+    transform: scale(1);
+    transition: .2s;
 }
 
 header nav ul{
