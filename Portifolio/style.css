@@ -8,3 +8,8 @@ body{
     background-color: #000;
     height: 100vh;
 }
+
+.interface{
+    max-width: 1280px;
+    margin: auto;
+}
