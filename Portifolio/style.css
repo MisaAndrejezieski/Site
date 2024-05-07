@@ -42,7 +42,7 @@ header a{
 
 header a:hover{
     color: #fff;
-    transform: scale(2) ;
+    transform: scale(.4) ;
     transition: .5s;
 }
 
