@@ -46,6 +46,11 @@ header a:hover{
     transition: .5s;
 }
 
+header .interface .logo:hover{
+    transform: scale(0);
+    transition: 0;
+}
+
 header nav ul{
     list-style-type: none;
 }
