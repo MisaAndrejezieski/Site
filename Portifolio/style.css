@@ -47,7 +47,7 @@ header a:hover{
 }
 
 header .interface .logo:hover{
-    transform: none;
+    transform: scale(0.1);
 }
 
 header nav ul{
