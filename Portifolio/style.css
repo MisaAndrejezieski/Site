@@ -48,6 +48,7 @@ header a:hover{
 
 header .interface .logo:hover{
     transform: scale(0.1);
+    transition: 5.0s;
 }
 
 header nav ul{
