@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -103,6 +101,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-do-site h1 span{
+    padding: 40px;
     color:#00ff08;
 }
 
@@ -112,4 +111,16 @@ section.topo-do-site .flex{
     margin: 40px;
 }
 
+.topo-do-site .img-topo-do-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
 
+@keyframes flutuar{
+    0%{
+        top:0;
+    }
+    100%{
+        top:30px;
+    }
+}
