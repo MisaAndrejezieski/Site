@@ -107,9 +107,6 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-do-site h1 span:hover{
-    box-shadow: 0px 0px 2px #01ff09;
-    transform: scale(.4) ;
-    transition: .2s;
     cursor: pointer;
 }
 
