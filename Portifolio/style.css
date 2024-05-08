@@ -37,8 +37,7 @@ body{
 
 .btn-contato button:hover{
     box-shadow: 0px 0px 8px #01ff09;
-    transform: scale(1.60) ;
-    transition: .5s;
+    transition: 2s;
 }
 
 /* Estilo do cabeçalho */
@@ -64,6 +63,12 @@ header a:hover{
     color: #fff;
     transform: scale(1.4) ;
     transition: .2s;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px #01ff09;
+    transform: scale(1.60) ;
+    transition: .5s;
 }
 
 header .interface .logo:hover{
