@@ -35,7 +35,7 @@ body{
 
 .btn-contato button:hover{
     box-shadow: 0px 0px 8px #01ff09;
-    transition: 2s;
+    transition: 1.2s;
 }
 
 /* Estilo do cabeçalho */
@@ -115,6 +115,7 @@ section.topo-do-site .flex{
     font-size: 12px;
     line-height: 12px;
     margin: 10px;
+    margin-bottom: 40px;
 }
 
 .topo-do-site .img-topo-do-site img{
