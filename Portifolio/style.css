@@ -98,6 +98,7 @@ section.topo-do-site .flex{
     color:#fff;
     font-size: 40px;
     line-height: 40px;
+    margin-bottom: 30px;
 }
 
 .topo-do-site .txt-topo-do-site h1 span{
@@ -115,7 +116,8 @@ section.topo-do-site .flex{
     font-size: 12px;
     line-height: 12px;
     margin: 10px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .topo-do-site .img-topo-do-site img{
