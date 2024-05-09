@@ -199,3 +199,8 @@ section.sobre .flex{
     color: #00ff08;
     display: block;
 }
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
