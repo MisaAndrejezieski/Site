@@ -31,7 +31,7 @@ body{
     cursor: pointer;
 }
 
-.h2.titulo{
+h2.titulo{
     color: #fff;
     font-size: 38px;
     text-align: center;
@@ -210,8 +210,9 @@ section.sobre .flex{
 .sobre .txt-sobre .btn-social button{
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    border: none;
+    border-radius: 30px;
+    border: 0;
+    background-position: center;
     background-color: #00ff08;
     font-size: 25px;
     cursor: pointer;
