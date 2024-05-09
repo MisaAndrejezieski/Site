@@ -148,17 +148,17 @@ section.especialidades{
     padding: 40px 4%;
 }
 
-.especialidade .especialidade.box{
+.especialidades .especialidades.box{
     color: #fff;
     padding: 40px;   
 }
 
-.especialidade .especialidade.box i{
+.especialidades .especialidades.box i{
     font-size: 70px;
     color: #00ff08;
 }
 
-.especialidade .especialidade.box h3{
+.especialidades .especialidades.box h3{
     font-size: 28px;
     margin: 15px 0;
 }
