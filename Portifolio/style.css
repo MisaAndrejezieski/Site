@@ -204,3 +204,9 @@ section.sobre .flex{
     margin: 20px 0;
     text-align: justify;
 }
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
