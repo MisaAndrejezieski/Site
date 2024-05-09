@@ -31,12 +31,7 @@ body{
     cursor: pointer;
 }
 
-.btn-contato button:hover{
-    box-shadow: 0px 0px 8px #01ff09;
-    transition: 1.2s;
-}
-
-h2.titulo{
+.h2.titulo{
     color: #fff;
     font-size: 38px;
     text-align: center;
@@ -44,6 +39,11 @@ h2.titulo{
 
 h2.titulo span{
     color: #00ff08;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #01ff09;
+    transition: 1.2s;
 }
 
 /* Estilo do cabeçalho */
@@ -78,8 +78,10 @@ header .btn-contato button:hover{
 }
 
 header .interface .logo:hover{
+    box-shadow: 0 0 20px #00ff08;
     transform: scale(1);
     transition: 1.2s;
+    border-radius: 50%;
 }
 
 header nav ul{
@@ -177,7 +179,7 @@ section .especialidades .flex{
 /* Estilo do sobre */
 
 section.sobre{
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 
 section.sobre .flex{
@@ -209,4 +211,12 @@ section.sobre .flex{
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    border: none;
+    background-color: #00ff08;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition:.2s;
 }
+
+
